@@ -16,5 +16,17 @@ namespace winformsapp_1_a
         {
             InitializeComponent();
         }
+
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            var name = tbName.Text;
+            var age = tbAge.Text;
+            MessageBox.Show($"Your name is {name} and you are {age} years old");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
